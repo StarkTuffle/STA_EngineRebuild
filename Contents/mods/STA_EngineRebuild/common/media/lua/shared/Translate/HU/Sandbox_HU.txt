@@ -1,0 +1,12 @@
+Sandbox_HU = {
+    Sandbox_STA_EngineRebuild = "ST Kiegészítések - Motorfelújítás",
+ 
+    Sandbox_STA_EngineRebuild_MinMechanicsLevel = "Szükséges extra szerelői szint",
+    Sandbox_STA_EngineRebuild_MinMechanicsLevel_tooltip = "A motorfelújításhoz szükséges extra szerelői szintek; a motorjavítási szinten alapulva.",
+ 
+    Sandbox_STA_EngineRebuild_EnginePartsRequired = "Szintenként szükséges motoralkatrészek",
+    Sandbox_STA_EngineRebuild_EnginePartsRequired_tooltip = "A motorfelújításhoz szükséges motoralkatrészek mennyisége a megkövetelt szerelői szint alapján.",
+ 
+    Sandbox_STA_EngineRebuild_MinEngineCondition = "Legkisebb megengedett motorállapot",
+    Sandbox_STA_EngineRebuild_MinEngineCondition_tooltip = "Motorfelújításhoz szükséges minimum állapot.",
+}

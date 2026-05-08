@@ -1,0 +1,3 @@
+IGUI_RU = {
+    IGUI_STA_EngineRebuild_RebuildEngine = "Капиталка двигателя",
+}

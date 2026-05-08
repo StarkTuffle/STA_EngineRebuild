@@ -1,0 +1,23 @@
+version=1
+id=3628452306
+title=ST Additions - Engine Rebuild
+description=[h1]The final upgrade any apocalypse car needs[/h1]
+description=Take your vehicle's engine to the next level. Level your Mechanics and rebuild the engine to 100% quality.
+description=[hr][/hr][h2] Features [/h2]
+description=[list][*]Max out the quality of any vehicle engine
+description=[*]Fully customizable in sandbox settings, set the levels required, parts needed, and neccessary condition[/list]
+description=[hr][/hr][h2]Feedback and Suggestions[/h2]
+description=If you have any ideas you think would improve the mod? Let me know in the pinned discussion!
+description=[hr][/hr][h2]Bug Reporting[/h2]
+description=If you run into any issues while playing let me know in the pinned discussion.
+description=[hr][/hr][h2] Translations [/h2]
+description=I'm currently expanding translations so players around the world can enjoy it in their own language! If you?d like to help with translating or proofreading, check out the pinned discussion to get involved.
+description=[h3] Currently Available [/h3]
+description=[list][*]English
+description=[*]Russian (Thanks to [url=https://steamcommunity.com/id/drewaaaaa]drewaaaaa[/url])
+description=[*]French (Thanks to [url=https://steamcommunity.com/profiles/76561198156332094]George Leclers[/url])
+description=[*]Hungarian (Thanks to [url=https://steamcommunity.com/id/Manulcica]Manul[/url])
+description=[*]Brazilian Portuguese (Thanks to [url=https://steamcommunity.com/id/ferrizs]Quase Nada[/url])[/list]
+description=[hr][/hr][img]https://i.imgur.com/XRG7Sqm.gif[/img]
+tags=Build 41;Build 42;Vehicles;QoL
+visibility=public

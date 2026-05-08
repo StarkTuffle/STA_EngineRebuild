@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option STA_EngineRebuild.MinMechanicsLevel
+{
+    type = integer, min = 0, max = 6, default = 2,
+    page = STA_EngineRebuild, translation = STA_EngineRebuild_MinMechanicsLevel,
+}
+
+option STA_EngineRebuild.EnginePartsRequired
+{
+    type = integer, min = 0, max = 100, default = 3,
+    page = STA_EngineRebuild, translation = STA_EngineRebuild_EnginePartsRequired,
+}
+
+option STA_EngineRebuild.MinEngineCondition
+{
+    type = integer, min = 0, max = 100, default = 95,
+    page = STA_EngineRebuild, translation = STA_EngineRebuild_MinEngineCondition,
+}

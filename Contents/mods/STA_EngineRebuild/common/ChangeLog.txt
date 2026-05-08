@@ -1,0 +1,27 @@
+[ 21/12/2025 ]
+Version 1.0.0
+- Release
+[ ------ ]
+
+[ 22/12/2025 ]
+Version 1.0.1
+- Added Russian translation (Thank you drewaaaaa)
+[ ------ ]
+
+[ 22/12/2025 ]
+Version 1.1.0
+- Added b41 support
+- Added French translation (Thank you George Leclers)
+[ ------ ]
+
+[ 27/12/2025 ]
+Version 1.1.1
+- Added Hungarian translation (Thank you Manul)
+- Fixed b41 translation file encoding
+[ ------ ]
+[ Version 1.2.0 ]
+- Updated translation files to b42.15
+[ ------ ]
+[ Version 1.2.1 ]
+- Added Brazilian Portuguese translation (Thank you Quase Nada)
+[ ------ ]

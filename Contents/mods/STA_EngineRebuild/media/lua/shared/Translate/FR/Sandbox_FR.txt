@@ -1,0 +1,12 @@
+Sandbox_EN = {
+    Sandbox_STA_EngineRebuild = "ST Additions - Remise à neuf du moteur",
+ 
+    Sandbox_STA_EngineRebuild_MinMechanicsLevel = "Niveau requis en mécanique",
+    Sandbox_STA_EngineRebuild_MinMechanicsLevel_tooltip = "Niveaux de mécanique requis pour reconstruire un moteur ; basés sur le niveau de réparation du moteur.",
+ 
+    Sandbox_STA_EngineRebuild_EnginePartsRequired = "Pièces moteur requises par niveau",
+    Sandbox_STA_EngineRebuild_EnginePartsRequired_tooltip = "Pièces nécessaires à la reconstruction d'un moteur selon le niveau de mécanique requis.",
+ 
+    Sandbox_STA_EngineRebuild_MinEngineCondition = "État minimal du moteur",
+    Sandbox_STA_EngineRebuild_MinEngineCondition_tooltip = "État minimal requis du moteur pour pouvoir le remettre à neuf.",
+}

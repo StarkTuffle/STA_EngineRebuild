@@ -1,0 +1,12 @@
+Sandbox_RU = {
+    Sandbox_STA_EngineRebuild = "ST Additions - Капиталка двигателя",
+ 
+    Sandbox_STA_EngineRebuild_MinMechanicsLevel = "Добавочные уровни Автомеханики для капиталки",
+    Sandbox_STA_EngineRebuild_MinMechanicsLevel_tooltip = "Уровни Автомеханики, требуемые для капиталки; основывается на уровне Автомеханики, требуемом для ремонта двигателя.",
+ 
+    Sandbox_STA_EngineRebuild_EnginePartsRequired = "Количество запчастей двигателя на каждый уровень Автомеханики",
+    Sandbox_STA_EngineRebuild_EnginePartsRequired_tooltip = "Количество запчастей двигателя, требующихся для капиталки на каждый уровень Автомеханики.",
+ 
+    Sandbox_STA_EngineRebuild_MinEngineCondition = "Минимальное состояние двигателя",
+    Sandbox_STA_EngineRebuild_MinEngineCondition_tooltip = "Минимальное состояние двигателя, с которого можно начать делать капиталку.",
+}
