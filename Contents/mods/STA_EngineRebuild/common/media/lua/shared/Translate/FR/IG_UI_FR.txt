@@ -1,3 +1,0 @@
-IGUI_FR = {
-    IGUI_STA_EngineRebuild_RebuildEngine = "Remise à neuf du moteur",
-}

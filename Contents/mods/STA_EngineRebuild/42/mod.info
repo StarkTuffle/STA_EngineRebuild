@@ -4,4 +4,4 @@ poster=poster.png
 id=STA_EngineRebuild
 description=Rebuild vehicle engines which will set quality and other stats to the vehicles maximum.
 modversion=1.2.1
-versionMin=42.13
+versionMin=42.16
