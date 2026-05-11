@@ -22,3 +22,6 @@ Version 1.1.1
 [ Version 1.2.1 ]
 - Added Brazilian Portuguese translation (Thank you Quase Nada)
 [ ------ ]
+[ Version 1.3.0 ]
+- Added incremental repairs
+[ ------ ]
