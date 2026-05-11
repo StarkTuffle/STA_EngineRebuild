@@ -9,4 +9,10 @@ Sandbox_EN = {
 
     Sandbox_STA_EngineRebuild_MinEngineCondition = "Minimum Engine Condition",
     Sandbox_STA_EngineRebuild_MinEngineCondition_tooltip = "Minimum engine condition required to rebuild the engine.",
+
+    Sandbox_STA_EngineRebuild_EnableIncrementalIncrease = "Enable Incremental Rebuilds",
+    Sandbox_STA_EngineRebuild_EnableIncrementalIncrease_tooltip = "Enable partial rebuilds rather than a full rebuild.",
+
+    Sandbox_STA_EngineRebuild_EngineIncrementAmount = "Incremental Rebuild Amount",
+    Sandbox_STA_EngineRebuild_EngineIncrementAmount_tooltip = "Amount Engine Quality will increase when Incremental Rebuilds is enabled.",
 }

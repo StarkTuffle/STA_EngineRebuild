@@ -17,3 +17,15 @@ option STA_EngineRebuild.MinEngineCondition
     type = integer, min = 0, max = 100, default = 95,
     page = STA_EngineRebuild, translation = STA_EngineRebuild_MinEngineCondition,
 }
+
+option STA_EngineRebuild.EnableIncrementalIncrease
+{
+    type = boolean, default = false,
+    page = STA_EngineRebuild, translation = STA_EngineRebuild_EnableIncrementalIncrease,
+}
+
+option STA_EngineRebuild.EngineIncrementAmount
+{
+    type = integer, min = 0, max = 100, default = 10,
+    page = STA_EngineRebuild, translation = STA_EngineRebuild_EngineIncrementAmount,
+}

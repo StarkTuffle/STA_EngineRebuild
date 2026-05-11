@@ -7,6 +7,8 @@ Utils.SandboxDefaults = {
     ["MinMechanicsLevel"] = 2,
     ["EnginePartsRequired"] = 3,
     ["MinEngineCondition"] = 95,
+    ["EnableIncrementalIncrease"] = false,
+    ["EngineIncrementAmount"] = 10,
 }
 
 -- Sandbox Functions
@@ -19,6 +21,21 @@ local function getSandboxValue(key)
         return SandboxVars[moduleName][key]
     end
     return nil
+end
+
+---@param key string
+---@return Boolean|nil
+function Utils.getSandboxBool(key)
+    local defaultVal = Utils.SandboxDefaults[key]
+    local v = getSandboxValue(key)
+    if v == nil then return defaultVal end
+    if type(v) == "boolean" then return v end
+    if type(v) == "number" then return v ~= 0 end
+    if type(v) == "string" then
+        local vl = v:lower()
+        return vl == "true" or vl == "1" or vl == "yes" or vl == "on"
+    end
+    return type(defaultVal) == "boolean" and defaultVal or nil
 end
 
 ---@param key string

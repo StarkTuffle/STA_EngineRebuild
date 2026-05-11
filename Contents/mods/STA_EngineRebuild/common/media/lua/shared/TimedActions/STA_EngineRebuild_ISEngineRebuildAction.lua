@@ -40,7 +40,30 @@ function STA_EngineRebuild_ISEngineRebuildAction:complete()
     local requiredParts = engineRepairLevel * Utils.getSandboxInt("EnginePartsRequired")
 
     if self.vehicle and self.part then
-        self.part:repair()
+        if Utils.getSandboxBool("EnableIncrementalIncrease") then
+            local incr = Utils.getSandboxInt("EngineIncrementAmount")
+            if self.vehicle:getEngineQuality() + incr >= 100 then
+                self.part:repair()
+            else
+                local oldQuality = self.vehicle:getEngineQuality()
+                local newQuality = oldQuality + incr
+
+                local loudness = self.vehicle:getScript():getEngineLoudness() * SandboxVars["ZombieAttractionMultiplier"]
+
+                local oldPower = self.vehicle:getEnginePower()
+                local maxPower = self.vehicle:getScript():getEngineForce()
+
+                local newPower = oldPower + (incr / (100 - oldQuality)) * (maxPower - oldPower)
+                newPower = math.min(newPower, maxPower)
+
+                self.vehicle:setEngineFeature(newQuality, loudness, newPower)
+
+                self.vehicle:updatePartStats()
+                self.vehicle:updateBulletStats()
+            end
+        else
+            self.part:repair()
+        end
         if giveXP then
             addXp(self.character, Perks.Mechanics, 2 * requiredParts)
         end

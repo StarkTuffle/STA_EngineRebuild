@@ -17,7 +17,30 @@ local function onClientCommand(module, command, playerObj, args)
         local giveXP = playerObj:getMechanicsItem(vehicle:getMechanicalID() .. "2") == nil
         local requiredParts = engineRepairLevel * Utils.getSandboxInt("EnginePartsRequired")
 
-        part:repair()
+        if Utils.getSandboxBool("EnableIncrementalIncrease") then
+            local incr = Utils.getSandboxInt("EngineIncrementAmount")
+            if vehicle:getEngineQuality() + incr >= 100 then
+                part:repair()
+            else
+                local oldQuality = vehicle:getEngineQuality()
+                local newQuality = oldQuality + incr
+
+                local loudness = vehicle:getScript():getEngineLoudness() * SandboxVars["ZombieAttractionMultiplier"]
+
+                local oldPower = vehicle:getEnginePower()
+                local maxPower = vehicle:getScript():getEngineForce()
+
+                local newPower = oldPower + (incr / (100 - oldQuality)) * (maxPower - oldPower)
+                newPower = math.min(newPower, maxPower)
+
+                vehicle:setEngineFeature(newQuality, loudness, newPower)
+
+                vehicle:updatePartStats()
+                vehicle:updateBulletStats()
+            end
+        else
+            part:repair()
+        end
         if giveXP then
             playerObj:getXp():AddXP(Perks.Mechanics, 2 * requiredParts)
             -- addXp(playerObj, Perks.Mechanics, 2 * requiredParts)
