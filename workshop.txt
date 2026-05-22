@@ -17,7 +17,8 @@ description=[list][*]English
 description=[*]Russian (Thanks to [url=https://steamcommunity.com/id/drewaaaaa]drewaaaaa[/url])
 description=[*]French (Thanks to [url=https://steamcommunity.com/profiles/76561198156332094]George Leclers[/url])
 description=[*]Hungarian (Thanks to [url=https://steamcommunity.com/id/Manulcica]Manul[/url])
-description=[*]Brazilian Portuguese (Thanks to [url=https://steamcommunity.com/id/ferrizs]Quase Nada[/url])[/list]
+description=[*]Brazilian Portuguese (Thanks to [url=https://steamcommunity.com/id/ferrizs]Quase Nada[/url])
+description=[*]Dutch (Thanks to [url=https://steamcommunity.com/id/GeneralM13]General M-13[/url])[/list]
 description=[hr][/hr][h2] Compatibility [/h2]
 description=[table][tr][th]Version[/th][th]Singleplayer[/th][th]Multiplayer[/th][/tr]
 description=[tr][td]Stable (b41.78.19)[/td][td]✅[/td][td]✅[/td][/tr]

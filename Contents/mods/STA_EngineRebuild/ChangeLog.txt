@@ -25,3 +25,6 @@ Version 1.1.1
 [ Version 1.3.0 ]
 - Added incremental repairs
 [ ------ ]
+[ Version 1.3.1 ]
+- Added Dutch translation (Thank you General M-13)
+[ ------ ]
