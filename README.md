@@ -22,8 +22,8 @@ This mods allows you to improve the engine quality of PZ vehicles, improving hor
 | Version | Singleplayer | Multiplayer |
 | ------- | ------------ | ----------- |
 | b41.78.19 | ✅ | ✅ |
+| b42.19.0 | ✅ | ✅ |
 | b42.18.0 | ✅ | ✅ |
-| b42.17.0 | ✅ | ✅ |
 
 
 ---
