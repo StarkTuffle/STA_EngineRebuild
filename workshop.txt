@@ -22,7 +22,7 @@ description=[*]Dutch (Thanks to [url=https://steamcommunity.com/id/GeneralM13]Ge
 description=[hr][/hr][h2] Compatibility [/h2]
 description=[table][tr][th]Version[/th][th]Singleplayer[/th][th]Multiplayer[/th][/tr]
 description=[tr][td]Stable (b42.20.0)[/td][td]✅[/td][td]✅[/td][/tr]
-description=[tr][td]OutdatedUnstable (b41.19.1)[/td][td]✅[/td][td]✅[/td][/tr]
+description=[tr][td]OutdatedUnstable (b42.19.1)[/td][td]✅[/td][td]✅[/td][/tr]
 description=[tr][td]Legacy (b41.78.20)[/td][td]✅[/td][td]✅[/td][/tr][/table]
 description=
 description=[h3] Show Your Support or Come Say Hello [/h3]
