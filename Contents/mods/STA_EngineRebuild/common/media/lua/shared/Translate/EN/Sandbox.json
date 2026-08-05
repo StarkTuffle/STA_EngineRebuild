@@ -1,18 +1,13 @@
 {
     "Sandbox_STA_EngineRebuild": "ST Additions - Engine Rebuild",
-
     "Sandbox_STA_EngineRebuild_MinMechanicsLevel": "Additional Mechanics Level Required",
     "Sandbox_STA_EngineRebuild_MinMechanicsLevel_tooltip": "Extra Mechanics levels required to rebuild an engine; based off of Engine Repair Level.",
-
     "Sandbox_STA_EngineRebuild_EnginePartsRequired": "Engine Parts Required per Level",
     "Sandbox_STA_EngineRebuild_EnginePartsRequired_tooltip": "Engine Parts required to rebuild an engine per level of mechanics required.",
-
     "Sandbox_STA_EngineRebuild_MinEngineCondition": "Minimum Engine Condition",
     "Sandbox_STA_EngineRebuild_MinEngineCondition_tooltip": "Minimum engine condition required to rebuild the engine.",
-
     "Sandbox_STA_EngineRebuild_EnableIncrementalIncrease": "Enable Incremental Rebuilds",
     "Sandbox_STA_EngineRebuild_EnableIncrementalIncrease_tooltip": "Enable partial rebuilds rather than a full rebuild.",
-
     "Sandbox_STA_EngineRebuild_EngineIncrementAmount": "Incremental Rebuild Amount",
     "Sandbox_STA_EngineRebuild_EngineIncrementAmount_tooltip": "Amount Engine Quality will increase when Incremental Rebuilds is enabled."
 }

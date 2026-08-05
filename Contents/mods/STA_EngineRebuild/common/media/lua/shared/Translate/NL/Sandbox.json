@@ -1,18 +1,13 @@
 {
     "Sandbox_STA_EngineRebuild": "ST Toevoegingen - Motorblok herbouwen",
-
     "Sandbox_STA_EngineRebuild_MinMechanicsLevel": "Aanvullend niveau Mechanica vereist",
     "Sandbox_STA_EngineRebuild_MinMechanicsLevel_tooltip": "Extra Mechanica niveaus vereist om een motorblok te herbouwen; gebaseerd op het niveau van Motorblok reparaties.",
-
     "Sandbox_STA_EngineRebuild_EnginePartsRequired": "Motorblok onderdelen vereist per Niveau",
     "Sandbox_STA_EngineRebuild_EnginePartsRequired_tooltip": "Motorblok onderdelen die nodig zijn om een Motorblok te herbouwen, afhankelijk van het vereiste Mechanica niveau.",
-
     "Sandbox_STA_EngineRebuild_MinEngineCondition": "Minimale conditie van Motorblok",
     "Sandbox_STA_EngineRebuild_MinEngineCondition_tooltip": "Minimale conditie van Motorblok vereist om het motorblok te kunnen herbouwen.",
-
     "Sandbox_STA_EngineRebuild_EnableIncrementalIncrease": "Inschakelen gedeeltelijke herbouw",
     "Sandbox_STA_EngineRebuild_EnableIncrementalIncrease_tooltip": "Schakel gedeeltelijke herbouwen in in plaats van volledig herbouwen.",
-
     "Sandbox_STA_EngineRebuild_EngineIncrementAmount": "Hoeveelheid Incrementeel herbouwen",
     "Sandbox_STA_EngineRebuild_EngineIncrementAmount_tooltip": "Hoeveel motorblok kwaliteit word verbeterd als Incrementeel herbouwen is ingeschakeld."
 }

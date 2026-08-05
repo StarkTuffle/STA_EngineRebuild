@@ -1,12 +1,9 @@
 {
     "Sandbox_STA_EngineRebuild": "ST Adições - Reconstrução do Motor",
-
     "Sandbox_STA_EngineRebuild_MinMechanicsLevel": "É necessário conhecimento adicional em mecânica.",
     "Sandbox_STA_EngineRebuild_MinMechanicsLevel_tooltip": "Níveis adicionais de Mecânica necessários para reconstruir um motor; com base no Nível de Reparo do Motor.",
-
     "Sandbox_STA_EngineRebuild_EnginePartsRequired": "Peças do motor necessárias por nível",
     "Sandbox_STA_EngineRebuild_EnginePartsRequired_tooltip": "Peças do motor necessárias para reconstruir um motor, de acordo com o nível de conhecimento de mecânica exigido.",
-
     "Sandbox_STA_EngineRebuild_MinEngineCondition": "Condição mínima do motor",
     "Sandbox_STA_EngineRebuild_MinEngineCondition_tooltip": "Condição mínima do motor necessária para a sua reconstrução."
 }
