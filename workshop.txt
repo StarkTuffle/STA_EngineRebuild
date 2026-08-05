@@ -21,7 +21,7 @@ description=[*]Brazilian Portuguese (Thanks to [url=https://steamcommunity.com/i
 description=[*]Dutch (Thanks to [url=https://steamcommunity.com/id/GeneralM13]General M-13[/url])[/list]
 description=[hr][/hr][h2] Compatibility [/h2]
 description=[table][tr][th]Version[/th][th]Singleplayer[/th][th]Multiplayer[/th][/tr]
-description=[tr][td]Stable (b42.20.1)[/td][td]✅[/td][td]✅[/td][/tr]
+description=[tr][td]Stable (b42.20.2)[/td][td]✅[/td][td]✅[/td][/tr]
 description=[tr][td]42.19 (b42.19.1)[/td][td]✅[/td][td]✅[/td][/tr]
 description=[tr][td]Legacy41 (b41.78.20)[/td][td]✅[/td][td]✅[/td][/tr][/table]
 description=
